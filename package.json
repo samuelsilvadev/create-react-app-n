@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-n",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -20,6 +20,7 @@
     "lint-staged": "^11.2.3",
     "prettier": "^2.4.1",
     "react-scripts": "4.0.3",
+    "standard-version": "^9.3.2",
     "typescript": "^4.1.2"
   },
   "scripts": {
@@ -28,7 +29,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write . --loglevel=error",
-    "lint": "eslint . --ext .tsx,.ts,.js"
+    "lint": "eslint . --ext .tsx,.ts,.js",
+    "release": "standard-version"
   },
   "eslintConfig": {
     "extends": [
