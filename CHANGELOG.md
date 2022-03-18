@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/samuelsilvadev/create-react-app-n/compare/v0.0.2...v0.0.3) (2022-03-18)
+
+### Features
+
+- include .editorconfig ([0c193c7](https://github.com/samuelsilvadev/create-react-app-n/commit/0c193c7dfd9cc5ffb8bb4977a5e01fb3ff005c1a))
+- setup react router 6 ([0010e90](https://github.com/samuelsilvadev/create-react-app-n/commit/0010e900f2f72a03a38e23ddf5ff9cf3b5c83843))
+
 ### [0.0.2](https://github.com/samuelsilvadev/create-react-app-n/compare/v0.0.1...v0.0.2) (2022-03-18)
 
 ### Features
