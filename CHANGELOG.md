@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/samuelsilvadev/create-react-app-n/compare/v0.0.1...v0.0.2) (2022-03-18)
+
+### Features
+
+- do not execute commitizen on release command ([bc16d6a](https://github.com/samuelsilvadev/create-react-app-n/commit/bc16d6a40b1f8012495e49fc5d9e374e0f73e411))
+
 ### [0.0.1](https://github.com/samuelsilvadev/create-react-app-n/compare/v0.0.0...v0.0.1) (2022-03-18)
 
 ### Features
