@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write . --loglevel=error",
     "lint": "eslint . --ext .tsx,.ts,.js",
-    "release": "standard-version",
+    "release": "DISABLE_CZ=true standard-version",
     "check-types": "tsc"
   },
   "eslintConfig": {
@@ -54,7 +54,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "prepare-commit-msg": "[[ -z ${DISABLE_CZ} ]] && exec < /dev/tty && git cz --hook || true"
     }
   },
   "lint-staged": {
